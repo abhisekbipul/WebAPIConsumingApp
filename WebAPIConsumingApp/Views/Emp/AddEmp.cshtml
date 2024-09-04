@@ -1,0 +1,17 @@
+﻿@model Emp
+
+
+<form method="post">
+    Name<input type="text" class="form-control" asp-for="name"/><br />
+
+    Department<select class="form-control" asp-for="department">
+        <option>IT</option>
+        <option>HR</option>
+        <option>Sales</option>
+    </select><br />
+
+    Salary<input type="text" class="form-control" asp-for="salary" />
+
+    <br />
+    <input type="submit" value="save" class="btn btn-success" />
+</form>
